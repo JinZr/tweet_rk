@@ -17,3 +17,5 @@ if __name__ == '__main__':
     c.Output = args.save_path
     c.Search = args.hashtag.split(',')
     c.Year = args.year
+
+    twint.run.Search(c)
