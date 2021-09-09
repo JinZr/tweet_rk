@@ -11,6 +11,8 @@ parser.add_argument('--save_path', type=str)
 args = parser.parse_args()
 
 if __name__ == '__main__':
+    print(args)
+
     c = twint.Config()
 
     c.Store_csv = True
